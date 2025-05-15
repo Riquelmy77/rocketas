@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Futura ExtraBold", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #0A47CC;
+  color: #E5E5E5;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin-top: 40px;
+}
